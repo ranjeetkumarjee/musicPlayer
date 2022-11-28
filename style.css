@@ -1,0 +1,302 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+   box-sizing: border-box;
+}
+
+/* for nav bar  */
+.nav-bar{
+    display: flex;
+    width:100%;
+    height: 14vh;
+    background-color: rgb(22, 12, 14);
+}
+
+/* for logo image coding studio */
+.logo img{
+    width: 150px;
+    position: relative;
+    top: 14px;
+    left: 10px;
+    padding-right: 20px;
+}
+
+/* for nav-bar menu div */
+.nav-bar #menu{
+    font-size: 1rem;
+}
+
+/* nav manu favourite button */
+#menu a{
+    position: relative;
+    top:28px;
+    left: 40%;
+    text-decoration: none;
+    color: white;
+}
+
+/* search bar start */
+#search-bar{
+    border-radius: 10px;
+}
+#search-bar input{
+    position: absolute;
+    right: 150px;
+    top:25px;
+    border-radius: 5px;
+    background-color: rgb(25, 25, 86);
+    z-index: 1;
+}
+
+#btn-search{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 305px;
+    top: 31px;
+    z-index: 2;
+    background-color: rgb(25, 25, 86);
+}
+
+.fa-magnifying-glass{
+    color: white;
+}
+
+#btn-mic{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 161px;
+    top: 28px;
+    z-index: 2;
+    background-color: rgb(25, 25, 86);
+    border: none;
+}
+.fa-microphone{
+    color:white;
+}
+
+#notification{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:100px;
+    top: 30px;
+    z-index: 2;
+    background-color: rgb(25, 25, 86);
+    border: none;
+}
+.fa-bell{
+    color: white;
+}
+
+/* end search bar */
+
+/* profile man logo start */
+#prof{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 35px;
+    top: 24px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+#prof img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* profile man logo end */
+
+/* current song container start */
+#current-song{
+    width: 800px;
+    height:323px;
+    background-color: rgba(0, 0, 0, 0.658);
+    margin:50px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 2px rgba(225, 221, 221, 0.945);
+}
+
+#quotes{
+    width: 326px;
+    color: white;
+    padding-left: 30px;
+}
+
+#heading-current-song{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading-current-song>p{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#brits-para{
+    margin-top:1rem;
+}
+
+#c-song-btn-1{
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(to left,rgb(206, 60, 255),rgb(109, 13, 225));
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#c-song-btn-2{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    border-radius:5px ;
+    margin: 10px;
+    color: white;
+}
+
+/* end current song section */
+
+
+/* song list section start */
+#song-list{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.list-dimension{
+    width: 100%;
+    height: 50px;
+    margin-left:50px;
+    margin-top:5px;
+    background-color: rgb(46, 36, 36);
+    
+}
+ /* start song each list css part in which song title song logo etc present */
+.list-first-part h6{
+    margin-top:7px;
+    margin-right:10px;
+    color: rgb(187, 176, 176);
+}
+.list-first-part img{
+    width: 70px;
+    height: 40px;
+    padding-left: 28px;
+    margin-top: -54px;
+}
+.list-first-part h5{
+    position: relative;
+    top: -59px;
+    left: 90px;
+    font-size: 1rem;
+    color: white;
+}
+.list-first-part p{
+    position: relative;
+    top: -70px;
+    left: 90px;
+    color: rgb(187, 176, 176);
+}
+/* end first part of list of strong */
+
+/* start second part each list song style start here */
+.list-second-part{
+    position: relative;
+    top: -120px;
+    float: right;
+    right: 55px;
+}
+.list-second-part i{
+    padding:10px;
+    font-size: 1rem;
+    color: rgb(187, 176, 176);
+    cursor: pointer;
+}
+/* end second part of start  */
+/* end socond part of each song list style */
+/* end song list */
+
+/* start aside section  */
+
+/* similar artist start */
+.similar-artist-container{
+    width: 32rem;
+    height: 333px;
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 139px;
+    right: 3rem;
+    border-radius: 10px;
+}
+
+#header-of-similar-artist {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    margin-top:-20px;
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    color:white;
+}
+
+#header-of-similar-artist span p{
+    position: absolute;
+    right: 26px;
+    top: 3px;
+
+}
+#header-of-similar-artist span h3{
+    position: absolute;
+    left:10px;
+    top: -3px;
+}
+/* end header  */
+
+.artist-list{
+    width: 100%;
+    height: 100px;
+    color:rgb(0, 0, 0);
+    color:white;
+}
+.aside-similar-list-first-part img{
+    width: 95px;
+    height: 75px;
+    margin-left: 22px;
+    margin-top: 5px;
+}
+
+.aside-similar-list-first-part h5{
+    position: relative;
+    top: -72px;
+    left: 148px;
+}
+
+.aside-similar-list-first-part p{
+    position: relative;
+    top: -81px;
+    left: 148px;
+}
+
+
+.artist-list-second-part{
+    position: absolute;
+    top: 57px;
+    right: 21px;
+}
+
+.artist-list-second-part p{
+    position: relative;
+    right: 10px;
+    top:1px;
+
+}
